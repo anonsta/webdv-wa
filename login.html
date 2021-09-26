@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:align="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
@@ -8,12 +8,10 @@
 <body>
 <div class="container">
 <div class="login-flexbox">
-	<img src="images/postit.png" alt="PostIt logo" style="width:50px;height:50px;" align="left" align="top">
-	<br></br>
-    <h2>Welcome to PostIt</h2>
-    <p><a href="index.html">Create an account</a></p>
-    <p>Or</p>
-    <p>Please log In</p>
+    <h2 class="login-text">Welcome to PostIt</h2>
+    <p class="login-text"><a href="index.html">Create an account</a></p>
+    <p class="login-text">Or</p>
+    <p class="login-text">Please log In</p>
     <form>
         <label>
             <input class="login-textbox" type="text" placeholder="E-mail" >
@@ -26,6 +24,9 @@
     <br>
     <button class="website-button" type="submit">Log In</button>
     <p><a href="" target="_blank">Forgot Password?</a></p>
+    <div class="postitimage">
+        <img src="images/postit.png" alt="PostIt logo" style="width:100px;height:100px;">
+    </div>
 </div>
 </div>
 </body>

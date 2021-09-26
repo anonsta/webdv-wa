@@ -1,13 +1,25 @@
 body {background-color: DodgerBlue;}
+
 .container {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.postitimage {
+  position: relative;
+  top: -390px;
+  right: 160px;
+}
+
+.login-text {
+  font-family:"Times New Roman", serif;
+}
+
 .login-flexbox {
-  height: 400px;
-  width: 300px;
+  height: 325px;
+  width: 325px;
   background: #fff;
   padding: 50px;
   border-radius: 10px;
@@ -17,6 +29,7 @@ body {background-color: DodgerBlue;}
 }
 
 .login-textbox {
+  font-family:"Times New Roman", serif;
   box-sizing: border-box;
   border: 2px solid rosybrown;
   height: 30px;
@@ -25,6 +38,7 @@ body {background-color: DodgerBlue;}
 }
 
 .website-button {
+  font-family:"Times New Roman", serif;
   background-color: DodgerBlue;
   color: White;
   padding: 5px 30px;
