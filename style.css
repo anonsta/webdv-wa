@@ -4,7 +4,6 @@ body {background-color: DodgerBlue;}
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #White;
 }
 .login-flexbox {
   height: 400px;
@@ -14,4 +13,21 @@ body {background-color: DodgerBlue;}
   border-radius: 10px;
   position: relative;
   text-align: center;
+  border: 5px outset lightgray;
+}
+
+.login-textbox {
+  box-sizing: border-box;
+  border: 2px solid rosybrown;
+  height: 30px;
+  margin: 3px 0;
+  border-radius: 5px;
+}
+
+.website-button {
+  background-color: DodgerBlue;
+  color: White;
+  padding: 5px 30px;
+  text-align: center;
+  font-size: 15px;
 }
