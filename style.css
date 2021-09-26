@@ -1,5 +1,8 @@
 body {background-color: DodgerBlue;}
-
+#para1 {
+ font-family:"Times New Roman", serif;
+  color: blue;
+}
 .container {
   min-height: 100vh;
   display: flex;
@@ -11,10 +14,6 @@ body {background-color: DodgerBlue;}
   position: relative;
   top: -390px;
   right: 160px;
-}
-
-.login-text {
-  font-family:"Times New Roman", serif;
 }
 
 .login-flexbox {
