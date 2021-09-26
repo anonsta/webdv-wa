@@ -1,5 +1,8 @@
 body {background-color: DodgerBlue;}
-
+#para1 {
+ font-family:"Times New Roman", serif;
+  color: blue;
+}
 .container {
   min-height: 100vh;
   display: flex;
@@ -44,4 +47,12 @@ body {background-color: DodgerBlue;}
   padding: 5px 30px;
   text-align: center;
   font-size: 15px;
+}
+
+button:hover {
+  background-color: deepskyblue;
+}
+
+p + p {
+  color: darkblue;
 }
