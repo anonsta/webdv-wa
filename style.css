@@ -44,3 +44,7 @@ body {background-color: DodgerBlue;}
   text-align: center;
   font-size: 15px;
 }
+
+button:hover {
+  background-color: deepskyblue;
+}
