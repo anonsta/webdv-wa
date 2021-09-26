@@ -23,7 +23,7 @@ nav div img {
     height: 100%;
 }
 
-nav div.user {
+nav #user {
     text-align: right;
 }
 
@@ -97,5 +97,5 @@ section div.posts {
 
 .post1 .text img {
     width: 100px;
-    heigth: auto;
+    height: auto;
 }

@@ -13,7 +13,7 @@ body {background-color: DodgerBlue;}
   right: 160px;
 }
 
-.login-text {
+.login-text ~ p{
   font-family:"Times New Roman", serif;
 }
 
