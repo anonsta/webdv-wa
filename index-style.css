@@ -64,10 +64,11 @@ section div.container {
 section div.posts {
     flex-direction: column;
     text-align: center;
+    margin-top: 20px;
 }
 
 .post1 {
-    box-shadow: 2px 2px 2px 2px #cac5c5;
+    box-shadow: 3px 3px 3px 3px #cac5c5;
 }
 
 .post1 .upper {
@@ -84,13 +85,14 @@ section div.posts {
 }
 
 .post1 .inside img{
-    width: 800px;
+    width: 700px;
     height: auto;
 }
 
 .post1 .text {
     text-align: left;
     margin: 10px;
+    font-size: 25px;
 }
 
 .post1 .text img {
