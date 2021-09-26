@@ -48,3 +48,7 @@ body {background-color: DodgerBlue;}
 button:hover {
   background-color: deepskyblue;
 }
+
+p + p {
+  color: darkblue;
+}
