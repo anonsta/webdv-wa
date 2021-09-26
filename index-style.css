@@ -1,5 +1,9 @@
-body {
-    background-color: DodgerBlue;
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
 }
 
 nav {
@@ -14,6 +18,14 @@ nav div {
     padding: 10px;
 }
 
+nav div img {
+    height: 150%;
+}
+
+nav div.user {
+    text-align: right;
+}
+
 nav div.search-container > input {
     box-sizing: border-box;
     height: 30px;
@@ -26,10 +38,12 @@ nav div.search-container > input {
 nav div.search-container > button {
     box-sizing: border-box;
     height: 30px;
-    width: 20%;
+    width: 15%;
     margin: 0;
     padding: 5px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #328ed6;
     cursor: pointer;
-    background-color: #e0e0e0;
+    background-color: #328ed6;
+    color: white;
+    font-weight: bold;
 }
