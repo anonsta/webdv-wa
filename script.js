@@ -7,8 +7,6 @@ $(function(){
 		else {
 			let div = $('<div class = ImagePost>')
 		}
-		div += object.body
-		div += $('</div>')
 		}
 	});
 	
