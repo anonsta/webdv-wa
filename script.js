@@ -7,7 +7,7 @@ $(document).ready(function() {
 			let upperdiv = $('<div class = "upper">');
 			let middlediv = $('<div class = "inside">');
 			let bottomdiv = $('<div class = "text">');
-			let pdate = $('<p>').text(obj.year);
+			let pdate = $('<p>').text(obj.time);
 			let ptext = $('<p>').text(obj.body);
 			let pfp = $('<img src="https://www.vhv.rs/dpng/d/436-4363443_view-user-icon-png-font-awesome-user-circle.png" alt="user">');
 			let image = $('<img id=imageid src="" alt="">');
