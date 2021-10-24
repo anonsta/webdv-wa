@@ -17,7 +17,7 @@ $(document).ready(function() {
 			div.append(middlediv);
 			div.append(bottomdiv);
 
-			$('body').append(div);
+			$('.posts').append(div);
 		}
 	});
 })
