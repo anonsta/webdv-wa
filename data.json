@@ -6,7 +6,7 @@
     "date": "October 24",
     "year": "2021",
     "time": "4:30",
-    "image": ""
+    "image": "https://icon-library.com/images/like-button-icon/like-button-icon-3.jpg"
   },
   {
     "userId": 1,
@@ -15,7 +15,7 @@
     "date": "October 24",
     "year": "2021",
     "time": "4:50",
-    "image": ""
+    "image": null
   },
   {
     "userId": 2,
@@ -24,6 +24,6 @@
     "date": "October 24",
     "year": "2021",
     "time": "4:54",
-    "image": ""
+    "image": null
   }
 ]
