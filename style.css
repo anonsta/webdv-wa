@@ -16,6 +16,10 @@ body {background-color: DodgerBlue;}
   right: 160px;
 }
 
+.login-text ~ p{
+  font-family:"Times New Roman", serif;
+}
+
 .login-flexbox {
   height: 325px;
   width: 325px;
