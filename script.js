@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$.get('https://www.npoint.io/docs/588c784a618918a72553', function(json_object) {
+	$.get('https://api.npoint.io/588c784a618918a72553', function(json_object) {
 		for (obj of json_object) {
 
 			let div = $('<div class = "post1">');
