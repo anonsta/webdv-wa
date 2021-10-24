@@ -5,13 +5,13 @@ $(document).ready(function() {
 
 			let div = $('<div class = "post1">');
 			let upperdiv = $('<div class = "upper">');
-			let middlediv = $('<div class = "middle">');
-			let bottomdiv = $('<div class = "bottom">');
+			let middlediv = $('<div class = "inside">');
+			let bottomdiv = $('<div class = "text">');
 			let pdate = $('<p>').text(obj.year);
 			let ptext = $('<p>').text(obj.body);
 
 			upperdiv.append(pdate);
-			middlediv.append(ptext);
+			bottomdiv.append(ptext);
 
 			div.append(upperdiv);
 			div.append(middlediv);
