@@ -2,7 +2,7 @@
   {
     "userId": 1,
     "id": 1,
-    "body": "description",
+    "body": "Beautiful sunset!",
     "date": "October 24",
     "year": "2021",
     "time": "4:30",
@@ -11,7 +11,7 @@
   {
     "userId": 1,
     "id": 2,
-    "body": "description",
+    "body": "The purpouse of our lives is to be happy.",
     "date": "October 24",
     "year": "2021",
     "time": "4:50",
@@ -20,10 +20,73 @@
   {
     "userId": 2,
     "id": 3,
-    "body": "description",
+    "body": "The best vacation ever after quarantine :)",
     "date": "October 24",
     "year": "2021",
     "time": "4:54",
     "image": null
-  }
+  },
+  {
+    "userId": 2,
+    "id": 4,
+    "body": "This is a totally random post!",
+    "date": "October 24",
+    "year": "2021",
+    "time": "4:54",
+    "image": null
+  },
+  {
+    "userId": 2,
+    "id": 5,
+    "body": "This one as well, but it is a bit different.",
+    "date": "October 24",
+    "year": "2021",
+    "time": "4:54",
+    "image": null
+  },
+  {
+    "userId": 2,
+    "id": 6,
+    "body": "The last 2 posts are very random, did not leave a like!",
+    "date": "October 24",
+    "year": "2021",
+    "time": "4:54",
+    "image": null
+  },
+  {
+    "userId": 2,
+    "id": 7,
+    "body": "Please like this post, trying to break a world record!",
+    "date": "October 24",
+    "year": "2021",
+    "time": "4:54",
+    "image": null
+  },
+  {
+    "userId": 2,
+    "id": 8,
+    "body": "I liked a post which wanted to break a world record, hope we manage to do it!",
+    "date": "October 24",
+    "year": "2021",
+    "time": "4:54",
+    "image": null
+  },
+  {
+    "userId": 2,
+    "id": 9,
+    "body": "I just recently started learning webdev.",
+    "date": "October 24",
+    "year": "2021",
+    "time": "4:54",
+    "image": null
+  },
+  {
+    "userId": 2,
+    "id": 10,
+    "body": "This is the last post of the feed!",
+    "date": "October 24",
+    "year": "2021",
+    "time": "4:54",
+    "image": null
+  },
 ]
