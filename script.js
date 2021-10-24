@@ -12,9 +12,8 @@ $(document).ready(function() {
 			let pfp = $('<img src="https://www.vhv.rs/dpng/d/436-4363443_view-user-icon-png-font-awesome-user-circle.png" alt="user">');
 			let image = $('<img id=imageid src="" alt="">');
 			$('#imageid').attr('src', obj.image);
+			console.log(obj.image);
 			let likeimage = $('<img src="https://icon-library.com/images/like-button-icon/like-button-icon-3.jpg">');
-
-
 
 			upperdiv.append(pfp);
 			upperdiv.append(pdate);
