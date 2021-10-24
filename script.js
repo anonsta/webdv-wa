@@ -14,10 +14,11 @@ $(document).ready(function() {
 			$('#imageid').attr('src', obj.image);
 			let likeimage = $('<img src="https://icon-library.com/images/like-button-icon/like-button-icon-3.jpg">');
 
-			console.log(obj.image);
+
 
 			upperdiv.append(pfp);
 			upperdiv.append(pdate);
+			middlediv.append(image);
 			bottomdiv.append(ptext);
 			bottomdiv.append(likeimage);
 
