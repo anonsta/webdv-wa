@@ -1,28 +1,34 @@
 <template>
-  <header>
-    <nav>
-    <div>
-        <img src="/images/postit.png" alt="postit">
-    </div>
-    <div>
-      <div class="search-container">
-        <input type="text"><button>Search</button>
-      </div>
-    </div>
-      <div id="user">
-        <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn"><img src="https://www.vhv.rs/dpng/d/436-4363443_view-user-icon-png-font-awesome-user-circle.png"></button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="#">John Doe</a>
-            <a href="#">john.doe@example.com</a>
+    <header>
+      <nav>
+        <div>
+          <img src="/images/postit.png" alt="postit">
+        </div>
+        <div>
+          <div class="search-container">
+            <input type="text"><button>Search</button>
           </div>
         </div>
-      </div>
-    </nav>
-  </header>
+        <div id="user">
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><img src="https://www.vhv.rs/dpng/d/436-4363443_view-user-icon-png-font-awesome-user-circle.png"></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">John Doe</a>
+              <a href="#">john.doe@example.com</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 </template>
 
-<style>
+<script>
+export default {
+  name: "Header"
+}
+</script>
+
+<style scoped>
 header nav {
   position: fixed;
   top: 0;
@@ -121,4 +127,5 @@ button {
   vertical-align: top;
   width: 66px;
 }
+
 </style>
