@@ -33,5 +33,62 @@ name: "Login"
 </script>
 
 <style scoped>
+body {background-color: #1e90ff;}
+#para1 {
+  font-family:"Times New Roman", serif;
+  color: blue;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.postitimage {
+  position: relative;
+  top: -390px;
+  right: 160px;
+}
+
+.login-text ~ p{
+  font-family:"Times New Roman", serif;
+}
+
+.login-flexbox {
+  height: 325px;
+  width: 325px;
+  background: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  border: 5px outset lightgray;
+}
+
+.login-textbox {
+  font-family:"Times New Roman", serif;
+  box-sizing: border-box;
+  border: 2px solid rosybrown;
+  height: 30px;
+  margin: 3px 0;
+  border-radius: 5px;
+}
+
+.website-button {
+  font-family:"Times New Roman", serif;
+  background-color: DodgerBlue;
+  color: White;
+  padding: 5px 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: deepskyblue;
+}
+
+p + p {
+  color: darkblue;
+}
 </style>
